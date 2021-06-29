@@ -1,0 +1,56 @@
+.AboutSection{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .about-info{
+        h4{
+            font-size: 2rem;
+        }
+        .about-text{
+            padding: 1rem 0;
+        }
+    }
+    @media screen and (max-width: 1400px){
+        flex-direction: column;
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+    }
+    
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #802bb1;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #d1d7e0;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+}
+
+.skillsContainer{
+    padding-top: 1rem;
+}
+
+
+

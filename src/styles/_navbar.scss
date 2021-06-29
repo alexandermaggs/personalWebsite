@@ -1,0 +1,43 @@
+.NavBar{
+    padding-top: 5px;
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+            img{
+                width: 70%;
+                border-radius: 10%;
+                border: 5px solid #d1d7e0;
+                margin-bottom: 1rem;
+            }
+        
+
+        .nav-items{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            .nav-item{
+                list-style: none;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    font-size: inherit;
+                    color: inherit;
+                    display: block;
+                    padding: .5rem 0;
+                    position: relative;
+                }
+                a:hover{
+                    color: #802bb1;
+                    transition: ease 0.4s;
+                }
+            }
+        }
+    }
+}
+
+
