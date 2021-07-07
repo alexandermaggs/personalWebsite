@@ -8,7 +8,7 @@ function AboutSection() {
                     I graduated from the University of Hertfordshire with BSc (Hons) Computer Science 2:1.
                     I am an aspiring front-end developer.
                 </p>
-                <button className="btn">Download Cv</button>
+                <button className="btn">Linkedin</button>
             </div>
         </div>
     )

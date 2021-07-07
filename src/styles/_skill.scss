@@ -1,17 +1,37 @@
-.SkillsSection{
-   
-}
-
-.skills-container{
-    .skill-title{
-        font-size: 1.4rem;
-        font-weight: 400;
+.skills-card{
+    overflow: hidden;
+    box-shadow: 0 2px 20px #564f6f;
+    border-radius: 10px;
+    border: 1px solid #d1d7e0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    justify-content: center;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #d1d7e0;
+    .card-image{
+        height: 80px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
-
-    .skill-bar{
-        display: flex;
-        align-items: center;
-        .skill-text{
-        }
+    .card-title{
+        padding: 1rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    .experience{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .card-desc{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
     }
 }
